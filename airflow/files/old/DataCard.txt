@@ -1,0 +1,42 @@
+About Dataset
+Context
+Dataset with results of Basketball Euroleague games, from 2003 to 2019 (season 2019-2020), with full- and half-time results, including per quarter.
+
+Content
+Columns:
+DATE = Date
+HT = Home Team
+AT = Away Team
+WINNER = Team won the game
+HS = Home Score
+AS = Away Score
+Q1H = 1st quarter home score
+Q1A = 1st quarter away score
+Q2H = …
+Q2A = …
+Q3H = …
+Q3A = …
+Q4H = …
+Q4A = …
+OTH = Overtime home (to be added)
+OTA = Overtime away (to be added)
+P1H = 1st part home score
+P1A = 1st part away score
+P2H = 2nd part home score
+P2A = 2nd part away score
+P1T = part 1 total
+P2T = part 2 total
+HTT = half time total (=P1T)
+FTT = full time total
+GAPA1Q = Absolute number of gap between teams in points after 1st quarter
+GAPA2Q = Absolute number of gap between teams in points after 2nd quarter
+GAPA3Q = Absolute number of gap between teams in points after 3rd quarter
+GAPA4Q = Absolute number of gap between teams in points after 4rd quarter
+
+Acknowledgements
+Euroleague.net
+No any copy rights to that dataset.
+
+Inspiration
+Hope that data will help with sport analytics related to Euroleague games.
+Main task is to determine background for series of team results (like win or lose during X games).

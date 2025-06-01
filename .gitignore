@@ -1,0 +1,18 @@
+# Исключаем папку archive полностью
+aaarchive/
+
+# Исключаем всё содержимое minio, но оставляем саму папку
+# Исключаем всё содержимое minio, но оставляем саму папку
+minio/*
+!minio/
+!minio/.gitkeep
+
+# Исключаем venv внутри airflow
+airflow/venv/
+
+# Исключаем всё содержимое logs, но оставляем папку
+airflow/logs/*
+!airflow/logs/
+
+# Исключаем __pycache__ везде
+**/__pycache__/
